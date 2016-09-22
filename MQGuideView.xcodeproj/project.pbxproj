@@ -13,6 +13,11 @@
 		621FD50D1D93C4C300D5B9EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 621FD50B1D93C4C300D5B9EF /* Main.storyboard */; };
 		621FD50F1D93C4C300D5B9EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 621FD50E1D93C4C300D5B9EF /* Assets.xcassets */; };
 		621FD5121D93C4C300D5B9EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 621FD5101D93C4C300D5B9EF /* LaunchScreen.storyboard */; };
+		621FD51C1D93C52B00D5B9EF /* MQGuideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 621FD51B1D93C52B00D5B9EF /* MQGuideView.m */; };
+		621FD51E1D93C68800D5B9EF /* default_pass@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 621FD51D1D93C68800D5B9EF /* default_pass@2x.png */; };
+		62384CBE1D93E4A40060E1B7 /* default_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 62384CBB1D93E4A40060E1B7 /* default_1.png */; };
+		62384CBF1D93E4A40060E1B7 /* default_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 62384CBC1D93E4A40060E1B7 /* default_2.png */; };
+		62384CC01D93E4A40060E1B7 /* default_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 62384CBD1D93E4A40060E1B7 /* default_3.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,12 @@
 		621FD50E1D93C4C300D5B9EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		621FD5111D93C4C300D5B9EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		621FD5131D93C4C300D5B9EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		621FD51A1D93C52B00D5B9EF /* MQGuideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQGuideView.h; sourceTree = "<group>"; };
+		621FD51B1D93C52B00D5B9EF /* MQGuideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQGuideView.m; sourceTree = "<group>"; };
+		621FD51D1D93C68800D5B9EF /* default_pass@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "default_pass@2x.png"; sourceTree = "<group>"; };
+		62384CBB1D93E4A40060E1B7 /* default_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default_1.png; sourceTree = "<group>"; };
+		62384CBC1D93E4A40060E1B7 /* default_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default_2.png; sourceTree = "<group>"; };
+		62384CBD1D93E4A40060E1B7 /* default_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default_3.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +69,17 @@
 		621FD5011D93C4C300D5B9EF /* MQGuideView */ = {
 			isa = PBXGroup;
 			children = (
+				621FD51A1D93C52B00D5B9EF /* MQGuideView.h */,
+				621FD51B1D93C52B00D5B9EF /* MQGuideView.m */,
 				621FD5051D93C4C300D5B9EF /* AppDelegate.h */,
 				621FD5061D93C4C300D5B9EF /* AppDelegate.m */,
 				621FD5081D93C4C300D5B9EF /* ViewController.h */,
 				621FD5091D93C4C300D5B9EF /* ViewController.m */,
 				621FD50B1D93C4C300D5B9EF /* Main.storyboard */,
+				621FD51D1D93C68800D5B9EF /* default_pass@2x.png */,
+				62384CBB1D93E4A40060E1B7 /* default_1.png */,
+				62384CBC1D93E4A40060E1B7 /* default_2.png */,
+				62384CBD1D93E4A40060E1B7 /* default_3.png */,
 				621FD50E1D93C4C300D5B9EF /* Assets.xcassets */,
 				621FD5101D93C4C300D5B9EF /* LaunchScreen.storyboard */,
 				621FD5131D93C4C300D5B9EF /* Info.plist */,
@@ -137,9 +154,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62384CC01D93E4A40060E1B7 /* default_3.png in Resources */,
+				62384CBF1D93E4A40060E1B7 /* default_2.png in Resources */,
 				621FD5121D93C4C300D5B9EF /* LaunchScreen.storyboard in Resources */,
 				621FD50F1D93C4C300D5B9EF /* Assets.xcassets in Resources */,
 				621FD50D1D93C4C300D5B9EF /* Main.storyboard in Resources */,
+				621FD51E1D93C68800D5B9EF /* default_pass@2x.png in Resources */,
+				62384CBE1D93E4A40060E1B7 /* default_1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +174,7 @@
 				621FD50A1D93C4C300D5B9EF /* ViewController.m in Sources */,
 				621FD5071D93C4C300D5B9EF /* AppDelegate.m in Sources */,
 				621FD5041D93C4C300D5B9EF /* main.m in Sources */,
+				621FD51C1D93C52B00D5B9EF /* MQGuideView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +329,7 @@
 				621FD5181D93C4C300D5B9EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
